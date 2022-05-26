@@ -9,7 +9,7 @@ spring:
     virtual-host: kdmffedc
 
 server:
-  port: 9411
+  port: ${PORT:9411}
 
 security:
   user:
