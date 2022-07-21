@@ -2,11 +2,11 @@ package com.jazara.icu.zipkin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.sleuth.zipkin.stream.EnableZipkinStreamServer;
 import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
+import zipkin.server.EnableZipkinServer;
 
 @SpringBootApplication
-@EnableZipkinStreamServer
+@EnableZipkinServer
 @EnableEncryptableProperties
 public class ZipkinApplication {
 
